@@ -1,0 +1,71 @@
+.desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.desc-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.desc-header .desc-id {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #222;
+  margin-bottom: 0.2rem;
+}
+
+.desc-header .desc-img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 0.5rem;
+}
+
+.desc-header .desc-name {
+  margin: 0.2rem 0;
+  font-size: 1.5rem;
+  color: #222;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+.desc-info {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.desc-info div {
+  font-size: 1rem;
+}
+
+.desc-stats-title {
+  margin: 0.5rem 0 0.2rem 0;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.desc-stats-table {
+  width: 90%;
+  border-collapse: collapse;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 0.5rem;
+}
+
+.desc-stats-table td {
+  padding: 0.3rem;
+}
+
+.desc-stats-table td:first-child {
+  font-weight: bold;
+}
