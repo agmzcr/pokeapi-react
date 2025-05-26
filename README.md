@@ -1,6 +1,6 @@
 # PokéAPI React Application
 
-This project is a simple Pokédex built with React, fetching data from the [PokéAPI](https://pokeapi.co/). It allows users to search for Pokémon by name and view detailed information.
+This project is a simple Pokédex built with React, fetching data from the [PokéAPI](https://pokeapi.co/). Allows users to view Pokémon by name and see detailed information.
 
 ## Features
 
